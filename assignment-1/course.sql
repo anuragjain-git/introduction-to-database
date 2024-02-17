@@ -1,5 +1,5 @@
 drop table Course;
-create table Course(course_id varchar(10), title varchar(20), dept_name varchar(20), credit int(1));
+create table Course(course_id varchar(10), title varchar(30), dept_name varchar(20), credit numeric(2));
 insert into Course values
 	("BIO-101", "Intro. to Biology", "Biology", 4),
 	("BIO-301", "Genetics", "Biology", 4),
