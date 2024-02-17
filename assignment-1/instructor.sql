@@ -1,4 +1,4 @@
-create table Instructor(ID int(5), name varchar(20), dept_name varchar(20), salary int(5));
+create table Instructor(ID numeric(5), name varchar(30), dept_name varchar(20), salary numeric(6));
 insert into Instructor values(10101, "Srinivasam", "Comp. Sci.", 65000);
 insert into Instructor values(12121, "Wu", "Finance", 90000);
 insert into Instructor values(15151, "Mozart", "Music", 40000);
