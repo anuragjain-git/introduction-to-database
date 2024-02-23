@@ -10,7 +10,7 @@ insert into Course values
 	("CS-319", "Image Processing", "Comp. Sci.", 3),
 	("CS-347", "Database System Concepts", "Comp. Sci.", 3),
 	("EE-181", "Intro. to Digital System", "Elec. Eng.", 3),
-    ("FIN-201", "Investment Banking", "Finance", 3),
-    ("HIS-315", "World Hstory", "History", 3),
-    ("MU-199", "Music Video Production", "Music", 3),
+    	("FIN-201", "Investment Banking", "Finance", 3),
+    	("HIS-315", "World Hstory", "History", 3),
+    	("MU-199", "Music Video Production", "Music", 3),
 	("PHY-101", "Physical Principles", "Physics", 4);
