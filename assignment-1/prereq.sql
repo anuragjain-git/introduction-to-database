@@ -1,4 +1,4 @@
-create table Prereq(Course_id varchar(10), Prereq varchar(10));
+create table Prereq(Course_id varchar(10), Prereq_id varchar(10));
 insert into Prereq values
 	("BIO-301", "BIO-101"),
 	("BIO-399", "BIO-101"),
