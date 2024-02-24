@@ -1,7 +1,7 @@
 create table Course(course_id varchar(10), title varchar(30), dept_name varchar(20), credit numeric(2));
 
 insert into Course values('BIO-101', 'Intro. to Biology', 'Biology', 4);
-insert into Course values('BIO-301', 'Genetics", 'Biology', 4);
+insert into Course values('BIO-301', 'Genetics', 'Biology', 4);
 insert into Course values('BIO-399', 'Computational Biology', 'Biology', 4);
 insert into Course values('CS-101', 'Intro. to Computer Science', 'Comp. Sci.', 4);
 insert into Course values('CS-190', 'Game Design', 'Comp. Sci.', 4);
