@@ -1,0 +1,58 @@
+desc COURSE;
+desc DEPARTMENT;
+desc INSTRUCTOR;
+desc PREREQ;
+desc TEACHES;
+
+select * from COURSE;
+select * from DEPARTMENT;
+select * from INSTRUCTOR;
+select * from PREREQ;
+select * from TEACHES;
+
+select NAME, DEPT_NAME from INSTRUCTOR;
+
+select NAME, SALARY from INSTRUCTOR where DEPT_NAME = 'Comp. Sci.';
+
+select * from INSTRUCTOR where DEPT_NAME = 'Physics' and SALARY < 90000;
+
+select NAME from INSTRUCTOR where DEPT_NAME != 'Comp. Sci.';
+
+select DISTINCT DEPT_NAME from INSTRUCTOR;
+
+select COURSE_ID from TEACHES where SEMESTER = 'Spring' and YEAR = 2009;
+
+select TITLE from COURSE where DEPT_NAME='Comp. Sci.' and CREDIT != 3;
+
+select * from COURSE order by DEPT_NAME DESC;
+
+ALTER table INSTRUCTOR ADD date_of_join DATE;
+
+UPDATE INSTRUCTOR SET DATE_J = '09-Mar-2024';
+
+ALTER TABLE COURSE RENAME DEPT_NAME TO department;
+ALTER TABLE INSTRUCTOR RENAME DEPT_NAME TO department;
+ALTER TABLE DEPARTMENT RENAME DEPT_NAME TO department;
+
+ALTER TABLE PREREQ RENAME TO Prerequired;
+
+ALTER TABLE COURSE RENAME COURSE_ID TO SUB_CODE;
+
+ALTER TABLE Instructor MODIFY NAME VARCHAR(50);
+
+ALTER TABLE Instructor RENAME TO Faculty_Info;
+
+ALTER TABLE Course MODIFY Course_id VARCHAR(8);
+
+DELETE FROM Prereq;
+
+ALTER TABLE Department RENAME COLUMN Building TO Buildrer;
+
+
+
+
+
+
+
+
+
