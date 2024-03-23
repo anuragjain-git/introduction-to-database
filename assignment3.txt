@@ -1,0 +1,25 @@
+ASSIGNMENT 3
+
+a) select COURSE_ID, TITLE, CREDIT from Course where DEPT_NAME IN ('Physics', 'Music', 'Finance', 'Biology');
+
+b) Select * from Faculty_Info where NAME like 'K%' and salary > 65000;
+
+c) Select NAME, DEPT_NAME, (Salary + (Salary * 0.105) + (Salary * 0.20)) AS gross_salary, (Salary + (Salary * 0.105) + (Salary * 0.20)) - (Salary * 0.30) AS net_salary, (Salary * 0.105) as DA, (Salary * 0.20) as HRA FROM Faculty_Info;
+
+d) select * from Faculty_Info where salary BETWEEN 60000 and 80000;
+
+e) select * from Faculty_Info where NAME like '_r%';
+
+f) select name from Faculty_Info where DEPT_NAME = 'Comp. Sci.' order by Salary DESC;
+
+g) update Faculty_Info SET salary = salary * 1.15;
+
+h) update Faculty_Info SET salary = salary * 1.03 where DEPT_NAME = 'Comp. Sci.' and Salary < 70000;
+
+i) select (Salary * 12) as Annual_salary from Faculty_Info;
+
+j) update Course SET TITLE = 'Game Theory' where TITLE = 'Game Design';
+
+k) Delete from Faculty_Info where DEPT_NAME = 'History';
+
+l) Delete from Course where COURSE_ID like 'BIO%';
