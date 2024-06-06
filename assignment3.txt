@@ -4,7 +4,7 @@ a) select COURSE_ID, TITLE, CREDIT from Course where DEPT_NAME IN ('Physics', 'M
 
 b) Select * from Faculty_Info where NAME like 'K%' and salary > 65000;
 
-c) Select NAME, DEPT_NAME, (Salary + (Salary * 0.105) + (Salary * 0.20)) AS gross_salary, (Salary + (Salary * 0.105) + (Salary * 0.20)) - (Salary * 0.30) AS net_salary, (Salary * 0.105) as DA, (Salary * 0.20) as HRA FROM Faculty_Info;
+c) Select NAME, DEPT_NAME, (Salary + (Salary * 1.05) + (Salary * 0.20)) AS gross_salary, (Salary + (Salary * 1.05) + (Salary * 0.20)) - (Salary * 0.30) AS net_salary, (Salary * 1.05) as DA, (Salary * 0.20) as HRA FROM Faculty_Info;
 
 d) select * from Faculty_Info where salary BETWEEN 60000 and 80000;
 
